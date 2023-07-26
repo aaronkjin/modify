@@ -9,6 +9,9 @@ export const revalidate = 0;
 export default async function Home() {
   const songs = await getSongs();
 
+  // Error handling when necessary
+  // throw new Error("Test!");
+
   /* Iconic Spotify green + main content */
   return (
     <div

@@ -12,6 +12,7 @@ import { toast } from "react-hot-toast";
 
 import useAuthModal from "@/hooks/useAuthModal";
 import { useUser } from "@/hooks/useUser";
+import usePlayer from "@/hooks/usePlayer";
 
 import Button from "./Button";
 
@@ -21,6 +22,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ children, className }) => {
+  const player = usePlayer();
   const authModal = useAuthModal();
   const router = useRouter();
 
@@ -31,6 +33,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
     const { error } = await supabaseClient.auth.signOut();
 
     // Reset any playing songs
+    player.reset();
     router.refresh();
 
     // For debugging
