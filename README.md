@@ -11,7 +11,9 @@ Still in the works. Link will be available soon.
 
 ### Background and Inspiration
 
-Say I'm not at my desk — studying for an upcoming exam or building a personal project. Then you'll most likely come across me _either_ playing the oboe _or_ listening to music with Airpods on. As an avid music-listening enjoyer with 80,000+ minutes listened to on Spotify last year as well as being a musician myself, I thought that building a Spotify clone web application would shed a bit more light into who I am as an individual. Because, after all, I do indeed love music. Plus, Spotify is my most used app. Thus, I built Modify, a full-stack Spotify clone application that allows users to upload and play their favorite songs, "like" their favorite songs for a "Liked Songs" playlist, pay for Premium features through Stripe, and many more features.
+Say I'm not at my desk where I may be studying for an upcoming exam or building a personal project. Then, you'll most likely come across me _either_ playing the oboe _or_ listening to music with Airpods on. As an avid music-listening enjoyer with 80,000+ minutes listened to on Spotify last year as well as being a musician myself, I thought that building a Spotify clone web application would shed a bit more light into who I am as an individual. Because, after all, I do love music. 
+
+Thus, I built Modify, a full-stack Spotify clone application that allows users to upload and play songs of their choice, "like" their favorite songs to put into a "Liked Songs" playlist, pay for Premium features through Stripe (albeit, with imaginary credit card information), and many, many more features. Modify replicates many of Spotify's core features, both basic and advanced.
 
 ### Details and Features
 
@@ -35,10 +37,11 @@ Say I'm not at my desk — studying for an upcoming exam or building a personal 
 
 **If you want to try the site for yourself:**
 1. Click the link above.
-2. Sign up through email or GitHub. You should receive an email as a confirmation link.
-3. Upon signing up, you are logged in! Feel free to browse around the site to see its features.
+2. Sign up through your email or GitHub account. You should receive an email as a confirmation link.
+3. Upon signing up, you are logged in! Feel free to browse around the site to view its features.
 4. To upload a song, click the "+" by the "Your Library" component. This allows you to upload any MP3 and image file of your choice.
-5. Play around with the features! You can like, search for, and play/pause the song of your choice + more.
+5. You'll notice that features are "locked" until you sign up for Modify Premium. This replicates how a SaaS business might operate. When signing up for Premium through Stripe, note that this doesn't require you to actually spend any money - it's all part of the demo. Feel free to enter your _fake_ credit card information, and don't worry. I won't be stealing any of your data (whether it be fake or not) because all data is encrypted and secure through Supabase.
+6. Play around with the features! You can like, search for, and play/pause the song of your choice + more.
 
 ### Notes
 
