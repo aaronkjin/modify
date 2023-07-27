@@ -13,7 +13,7 @@ import getActiveProductsWithPrices from "@/actions/getActiveProductsWithPrices";
 const font = Figtree({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Spotify Clone - Aaron Jin",
+  title: "Modify - Aaron Jin",
   description:
     "Full-stack Spotify clone built by Aaron Jin using React.js, Next.js, Stripe, Supabase, PostgreSQL, and Tailwind",
 };
