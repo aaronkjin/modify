@@ -1,7 +1,7 @@
 # Modify
 A full-stack Spotify clone website with full audio upload/playback and Stripe integration
 
-<img width="1000" alt="Screen Shot 2023-07-07 at 3 38 33 PM" src="https://github.com/aaronkjin/modify/assets/58490258/1ed36426-fd37-4c86-9332-d8294946937e">
+<img width="1000" alt="Screen Shot 2023-07-07 at 3 38 33 PM" src="https://github.com/aaronkjin/modify/assets/58490258/bd7f14f9-4f72-461d-a963-d42632bf1224">
 
 ### Link to website
 
