@@ -5,6 +5,8 @@ A full-stack Spotify clone website with full audio upload/playback and Stripe in
 
 ### Link to website
 
+Come see it for yourself!
+
 [Modify Website](https://modify-project.vercel.app/)
 
 ### Background and Inspiration
