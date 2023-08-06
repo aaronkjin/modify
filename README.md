@@ -38,24 +38,36 @@ Thus, I built Modify, a full-stack Spotify clone application that allows users t
 ### Instructions
 
 1. Click the link above.
-2. You'll notice that, prior to being able to do anything, you'll need to sign up or log in. Let's start off by doing that.
-3. By attempting to play any song or clicking the "Account" icon on the top right, you can sign up through your email or GitHub account.
-  i. You should receive an email as a confirmation link.
-4. Upon signing up, you are logged in! Feel free to browse around the site to view its features.
-5. Now, you'll also quickly realize that most of the functional, actually useful features of the site requires you to be on the Modify Premium plan.
-  i. Fear not, this "premium" plan is actually **free**!
-  ii. I simply wanted to integrate Stripe to give off the _fake_ feeling of there being premium features in order to replicate how a SaaS business might operate.
-6. Once again, attempt to play any song or click on the "Account" icon on the top right (the "Account" page will tell you that you are currently not subscribed to any plan). You will then be navigated to the Subscriptions page.
-7. When signing up for Premium through Stripe, I will remind you once again that this _does not_ require you to actually spend any money - it is all part of the demo.
-  i. Feel free to enter your _fake_ credit card information as well as any _fake_ personal information. Don't worry, I won't be stealing any of your data (whether it be fake or not) because all data is encrypted and secure through Supabase.
-  ii. **Example:** Card #: 4242 4242 4242 4242 / MONTH/YEAR: 04/24 / CVV: 424 / Address: 4242 Patrice Rd, Newport Beach, CA 92663 / Phone #: (111) 111-1111
-8. Congratulations! Upon signing up for Modify Premium, you have access to all of the site's features - hooray!
-9. You'll notice that you can listen to any songs now.
-  i. Give the songs in the "Newest Songs" category a try first! "Newest Songs" store a collective of _all_ the users' uploaded songs.
-10. To upload your own song, click the "+" by the "Your Library" component.
-  i. This allows you to upload any MP3 and image file of your choice.
-  ii. Once you upload your own song, you'll see it in the "Your Library" section, and it will also be uploaded in "Newest Songs" for any and all other users to hear as well - how cool is that?
-11. Play around with the features! You can favorite, search for, and play/pause the song of your choice, adjust volume, + so much more!
+2. Sign up or log in.
+    1. Credential authentication is required before being able to use the application.
+    2. To sign up:
+        1. By attempting to play any song _or_ clicking the "Account" icon at the top right, you can sign up through your email or Github account.
+        2. You should receive an email with a confirmation link when doing so.
+    3. To log in:
+        1. Similarly, you can log in with your email or Github account by attempting to play any song _or_ clicking the "Account" icon at the top right.
+3. Upon logging in, feel free to browse around the site to view its features.
+    1. You'll soon realize that most of the functional features of the site requires you to be on the Modify Premium plan.
+    2. Fear not, this "premium" plan is actually free!
+    3. I simply wanted to integrate Stripe to mimic the feeling there being premium features in order to replicate how a SaaS business might operate.
+4. To subscribe to Modify Premium, attempt to play any song _or_ click on the "Account" icon at the top right.
+    1. There, click the "Subscribe" button to be navigated to the Subscriptions page built with Stripe.
+5. On the Subscriptions page, once again, don't worry! You don't need to actually spend any money as I incorporated Stripe as part of the demo.
+    1. Feel free to enter fake information for the subscription: both for the credit card as well as for personal information.
+    2. Don't worry, I won't be stealing any of your data (whether it's fake or not) because all data is encrypted and secured through Supabase.
+    3. Example:
+        1. Credit Card #: 4242 4242 4242 4242
+        2. Credit Card Month/Year: 04/24
+        3. CVV: 424
+        4. Address: 4242 Patrice Rd, Newport Beach, CA 92663
+        5. Phone #: (111) 111-1111
+6. Now, upon signing up for Modify Premium, you have access to all the site's features - hooray!
+    1. Now, you can listen to any songs.
+    2. First, give the songs in the "Newest Songs" category a listen. "Newest Songs" stores a collection of all the users' uploaded songs.
+7. To upload your own song, click the "+" by the "Your Library" component.
+    1. This allows you to upload any MP3 and image file of your choice.
+    2. Once you upload your own song, you'll see it in the "Your Library" section, and it will also be uploaded in "Newest Songs" for any and all other users to listen to as well.
+8. Play around with the rest of the features!
+    1. You can favorite, search for, and play/pause the song of your choice, adjust volume, + so much more!
 
 ### Notes
 
