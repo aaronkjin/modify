@@ -35,18 +35,26 @@ Thus, I built Modify, a full-stack Spotify clone application that allows users t
 - Integration of recurring payments and cancellation of subscriptions using Stripe
 - Full responsiveness for all devices
 
-**If you want to try the site for yourself:**
+### Instructions
+
 1. Click the link above.
-2. Look around the site a bit. You'll notice that, prior to being able to do anything, you'll need to sign up or log in. Let's start off by doing that.
-3. By attempting to play any song or clicking the "Account" icon on the top right, you can sign up through your email or GitHub account. You should receive an email as a confirmation link.
+2. You'll notice that, prior to being able to do anything, you'll need to sign up or log in. Let's start off by doing that.
+3. By attempting to play any song or clicking the "Account" icon on the top right, you can sign up through your email or GitHub account.
+  i. You should receive an email as a confirmation link.
 4. Upon signing up, you are logged in! Feel free to browse around the site to view its features.
-5. Now, you'll also quickly realize that most of the functional, actually useful features of the site requires you to be on the Modify Premium plan. Fear not, this "premium" plan is actually **free**! I simply wanted to integrate Stripe to give off the _fake_ feeling of there being premium features in order to replicate how a SaaS business might operate.
+5. Now, you'll also quickly realize that most of the functional, actually useful features of the site requires you to be on the Modify Premium plan.
+  i. Fear not, this "premium" plan is actually **free**!
+  ii. I simply wanted to integrate Stripe to give off the _fake_ feeling of there being premium features in order to replicate how a SaaS business might operate.
 6. Once again, attempt to play any song or click on the "Account" icon on the top right (the "Account" page will tell you that you are currently not subscribed to any plan). You will then be navigated to the Subscriptions page.
-7. When signing up for Premium through Stripe, I will remind you once again that this _does not_ require you to actually spend any money - it is all part of the demo. Feel free to enter your _fake_ credit card information as well as any _fake_ personal information. Don't worry, I won't be stealing any of your data (whether it be fake or not) because all data is encrypted and secure through Supabase.
-  - **Example:** Card #: 4242 4242 4242 4242 / MONTH/YEAR: 04/24 / CVV: 424 / Address: 4242 Patrice Rd, Newport Beach, CA 92663 / Phone #: (111) 111-1111
+7. When signing up for Premium through Stripe, I will remind you once again that this _does not_ require you to actually spend any money - it is all part of the demo.
+  i. Feel free to enter your _fake_ credit card information as well as any _fake_ personal information. Don't worry, I won't be stealing any of your data (whether it be fake or not) because all data is encrypted and secure through Supabase.
+  ii. **Example:** Card #: 4242 4242 4242 4242 / MONTH/YEAR: 04/24 / CVV: 424 / Address: 4242 Patrice Rd, Newport Beach, CA 92663 / Phone #: (111) 111-1111
 8. Congratulations! Upon signing up for Modify Premium, you have access to all of the site's features - hooray!
-9. You'll notice that you can listen to any songs now. Give the songs in the "Newest Songs" category a try first! "Newest Songs" store a collective of _all_ the users' uploaded songs.
-10. To upload your own song, click the "+" by the "Your Library" component. This allows you to upload any MP3 and image file of your choice. Once you upload your own song, you'll see it in the "Your Library" section, and it will also be uploaded in "Newest Songs" for any and all other users to hear as well - how cool is that?
+9. You'll notice that you can listen to any songs now.
+  i. Give the songs in the "Newest Songs" category a try first! "Newest Songs" store a collective of _all_ the users' uploaded songs.
+10. To upload your own song, click the "+" by the "Your Library" component.
+  i. This allows you to upload any MP3 and image file of your choice.
+  ii. Once you upload your own song, you'll see it in the "Your Library" section, and it will also be uploaded in "Newest Songs" for any and all other users to hear as well - how cool is that?
 11. Play around with the features! You can favorite, search for, and play/pause the song of your choice, adjust volume, + so much more!
 
 ### Notes
