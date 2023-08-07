@@ -38,20 +38,15 @@ Thus, I built Modify, a full-stack Spotify clone application that allows users t
 ### Instructions
 
 1. Click the link above.
-2. Sign up or log in.
-    1. Credential authentication is required before being able to use the application.
-    2. To sign up:
-        1. By attempting to play any song _or_ clicking the "Account" icon at the top right, you can sign up through your email or Github account.
-        2. You should receive an email with a confirmation link when doing so.
-    3. To log in:
-        1. Similarly, you can log in with your email or Github account by attempting to play any song _or_ clicking the "Account" icon at the top right.
+2. Sign up or log in by attempting to play any song _or_ clicking "Account" at the top right.
 3. Upon logging in, browse around the site.
     1. You'll soon realize that most of the functional features of the site requires you to be on the Modify Premium plan.
-    2. Fear not, this "premium" plan is actually free!
-    3. I simply wanted to integrate Stripe to mimic the feeling there being premium features in order to replicate how a SaaS business might operate.
-4. To subscribe to Modify Premium, attempt to play any song _or_ click on the "Account" icon at the top right.
-    1. There, click the "Subscribe" button to be navigated to the Subscriptions page built with Stripe.
-5. On the Subscriptions page, once again, don't worry!
+4. Fear not, this "premium" plan is actually free!
+    1. The premium subscription is there for my development practice with Stripe and as a means to mimic a SaaS business.
+5. To subscribe to Modify Premium...
+    1. Once again, attempt to play any song _or_ click on the "Account" icon at the top right.
+    2. Click the "Subscribe" button to be navigated to the Subscriptions page built with Stripe.
+6. On the Subscriptions page, once again, you don't need to spend any money.
     1. Feel free to enter fake information for the subscription.
     2. Don't worry, all data, even fake data, is encrypted and secured through Supabase.
     3. Example:
@@ -60,14 +55,14 @@ Thus, I built Modify, a full-stack Spotify clone application that allows users t
         3. CVV: 424
         4. Address: 4242 Patrice Rd, Newport Beach, CA 92663
         5. Phone #: +1 (111) 111-1111
-6. Now, upon signing up for Modify Premium, you have access to all the site's features - hooray!
-    1. Now, you can listen to any songs.
-    2. First, give the songs in the "Newest Songs" category a listen. "Newest Songs" stores a collection of all the users' uploaded songs.
-7. To upload your own song, click the "+" by the "Your Library" component.
+7. Now, upon signing up for Modify Premium, you have access to all the site's features. Congratulations!
+    1. First, give the songs in the "Newest Songs" category a listen.
+    2. "Newest Songs" stores a collection of all the users' uploaded songs.
+8. To upload your own song, click the "+" by the "Your Library" component.
     1. This allows you to upload any MP3 and image file of your choice.
-    2. Once you upload your own song, you'll see it in the "Your Library" section, and it will also be uploaded in "Newest Songs" for any and all other users to listen to as well.
-8. Play around with the rest of the features!
-    1. You can favorite, search for, and play/pause the song of your choice, adjust volume, + so much more!
+    2. Once you upload your own song, you'll see it in the "Your Library" section.
+    3. It will also be uploaded in "Newest Songs" for any and all other users to listen to as well.
+9. Play around with the rest of the features!
 
 ### Notes
 
