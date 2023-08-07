@@ -18,22 +18,22 @@ Thus, I built Modify, a full-stack Spotify clone application that allows users t
 ### Details and Features
 
 - Technologies used: TypeScript, React, Next, Tailwind, Stripe, Supabase, and PostgreSQL.
-- Song upload
-- Play song audio
-- Favorites system
-- Playlists / Liked Songs system
-- Advanced Player component
-- A sleek, seamless UI with animations and transition effects using Tailwind
-- Credential authentication using Supabase
-- GitHub authentication integration
-- File and image upload using Supabase storage
-- Client form validation and handling using react-hook-form
-- Server error handling with react-toast
-- APP/API exposure with writing POST, GET, and DELETE routes in route handlers
-- Direct access of the database to fetch data in server React components (without the use of APIs)
-- Handling of relations between Server and Child components in a real-time environment
-- Integration of recurring payments and cancellation of subscriptions using Stripe
-- Full responsiveness for all devices
+- Song upload.
+- Play song audio.
+- Favorites system.
+- Playlists / Liked Songs system.
+- Advanced Player component.
+- Credential authentication using Supabase.
+- Email and GitHub authentication integration.
+- File and image upload using Supabase storage.
+- Integration of recurring payments and cancellation of subscriptions using Stripe.
+- A sleek, seamless UI with animations and transition effects using Tailwind.
+- Client form validation and handling using react-hook-form.
+- Server error handling with react-toast.
+- APP/API exposure with writing POST, GET, and DELETE routes in route handlers.
+- Direct access to the database to fetch data in server-side React components (without the use of APIs).
+- Handling of relations between Server and Child components in a real-time environment.
+- Full responsiveness for all devices.
 
 ### Instructions
 
@@ -45,21 +45,21 @@ Thus, I built Modify, a full-stack Spotify clone application that allows users t
         2. You should receive an email with a confirmation link when doing so.
     3. To log in:
         1. Similarly, you can log in with your email or Github account by attempting to play any song _or_ clicking the "Account" icon at the top right.
-3. Upon logging in, feel free to browse around the site to view its features.
+3. Upon logging in, browse around the site.
     1. You'll soon realize that most of the functional features of the site requires you to be on the Modify Premium plan.
     2. Fear not, this "premium" plan is actually free!
     3. I simply wanted to integrate Stripe to mimic the feeling there being premium features in order to replicate how a SaaS business might operate.
 4. To subscribe to Modify Premium, attempt to play any song _or_ click on the "Account" icon at the top right.
     1. There, click the "Subscribe" button to be navigated to the Subscriptions page built with Stripe.
-5. On the Subscriptions page, once again, don't worry! You don't need to actually spend any money as I incorporated Stripe as part of the demo.
-    1. Feel free to enter fake information for the subscription: both for the credit card as well as for personal information.
-    2. Don't worry, I won't be stealing any of your data (whether it's fake or not) because all data is encrypted and secured through Supabase.
+5. On the Subscriptions page, once again, don't worry!
+    1. Feel free to enter fake information for the subscription.
+    2. Don't worry, all data, even fake data, is encrypted and secured through Supabase.
     3. Example:
         1. Credit Card #: 4242 4242 4242 4242
         2. Credit Card Month/Year: 04/24
         3. CVV: 424
         4. Address: 4242 Patrice Rd, Newport Beach, CA 92663
-        5. Phone #: (111) 111-1111
+        5. Phone #: +1 (111) 111-1111
 6. Now, upon signing up for Modify Premium, you have access to all the site's features - hooray!
     1. Now, you can listen to any songs.
     2. First, give the songs in the "Newest Songs" category a listen. "Newest Songs" stores a collection of all the users' uploaded songs.
